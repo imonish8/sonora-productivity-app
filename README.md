@@ -1,5 +1,15 @@
 # Sonora Productivity App
+
+Sonora is a productivity app designed to help Developers manage their tasks, set goals, and track their progress effectively. Whether you're a student, professional, or anyone looking to stay organized and focused, Sonora has got you covered.
+
+##Desktop
+
 ![Screen Recording 2024-03-19 at 11 37 04 PM](https://github.com/imonish8/sonora-productivity-app/assets/115737071/9290c1bf-b47f-48ab-82b9-415cb8b550d7)
+
+##Mobile
+
+
+
 
 Sonora is a productivity app designed to help Developers manage their tasks, set goals, and track their progress effectively. Whether you're a student, professional, or anyone looking to stay organized and focused, Sonora has got you covered.
 
