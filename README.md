@@ -25,7 +25,7 @@ Clone the repository:
 ---
 ## Contributing
 
-We welcome contributions from developers of all skill levels. If you're interested in contributing to Sonora, Send PR Directly, for more information contact [E-mail](imonishnule8@gmail.com)
+We welcome contributions from developers of all skill levels. If you're interested in contributing to Sonora, Send PR Directly.
 
 ## Code of Conduct
 
@@ -37,6 +37,6 @@ Sonora is licensed under the MIT License.
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to us at contact@example.com.
+If you have any questions or suggestions, feel free to reach out to us at imonishnule8@gmail.com.
 
 We're excited to have you onboard as a contributor to Sonora! Let's build something great together.
