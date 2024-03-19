@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/bg3.jpg);
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  justify-self: center;
+  
+  backdrop-filter: blur(10px);
+  
+}
+
+main{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.welcome{
+  height: 100vh;
+  
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: -1; 
+  animation: animateGradient 5s linear infinite; 
+}
+
+.apple-music{
+  height: 90px;
+  width: 300px;
+}
+.github-button{
+  box-shadow: 10px 10px 100px 10px whitesmoke;
+}
+.apple-music:hover{
+  transform: scale(1.3) ;
+  animation:  ease-out;
+}
+
+.music-container {
+  background-color: #0a1930;
+  border-radius: 15px;
+  box-shadow: 10px 10px 100px 10px whitesmoke;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  margin: 100px 0;
+  z-index: 10;
+}
+
+.img-container {
+  position: relative;
+  width: 110px;
+}
+
+.img-container::after {
+  content: '';
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, 50%);
+}
+
+.img-container img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 110px;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: rotate 3s linear infinite;
+
+  animation-play-state: paused;
+}
+
+.music-container.play .img-container img {
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.action-btn {
+  background-color:#0a1930;
+  border: 0;
+  color: #e5e5e5;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.action-btn.action-btn-big {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.action-btn:focus {
+  outline: 0;
+}
+
+.music-info {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: calc(100% - 40px);
+  padding: 10px 10px 10px 150px;
+  opacity: 0;
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
+}
+
+.music-container.play .music-info {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+.music-info h4 {
+  margin: 0;
+}
+
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #fe8daa;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.heading-animation {
+  background:radial-gradient(circle at 50% 50%, #111E67 0%, #FFF20C 0%, #20FFFA 50%, #05008FCC 100%);
+  background-size: 200% 100%;
+  animation: headingGradient 10s linear infinite;
+  -webkit-background-clip: text; /* Clip text to the background area */
+  -webkit-text-fill-color: transparent; /* Hide the text */
+}
+
+@keyframes headingGradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+.heading-gradient {
+  background: radial-gradient(circle at 50% 50%, #111E67 0%, #0CFFCC 0%, #111E67 50%, #850093CC 100%);
+  background-size: 200% 100%;
+
+}
+button:hover{
+ transform: scale(1.2);
+ animation: colorChange 5s infinite; /* Change 5s to adjust the duration of the animation */
+
+  
+}
+@keyframes colorChange {
+  0% { background-color: rgb(255, 171, 171); }
+  25% { background-color: rgb(209, 209, 255); }
+  50% { background-color: rgb(227, 255, 227); }
+  75% { background-color: rgb(255, 255, 206); }
+  100% { background-color: rgb(255, 233, 233); }
+}
+
+.animate-background {
+  animation: colorChange 5s infinite; /* Change 5s to adjust the duration of the animation */
+}
+
+.timer.updateDisplay{
+color: #20FFFA;
+}
+
+#git{
+  color: #8E0CFF;
+}
+
+.smooth-button {
+  padding: 10px 20px;
+  font-size: 0.8em;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.81s ease;
+  
+}
+
+.smooth-button:hover {
+  background-color: #0056b3;
+  animation: headingGradient 10s linear infinite;
+
+}
+
+
+.animated {
+  animation: fadeIn 5s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+iframe{
+  margin: 10px;
+  box-shadow: 10px 10px 100px 10px whitesmoke;
+}
+
+
+@media only screen and (max-width: 450px) {
+  .welcome {
+   width: 400px;
+  }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 680px) {
+  .welcome {
+   width: 300px;
+  }
+}
+
