@@ -1,4 +1,4 @@
-# Sonora Productivity App
+# Sonora Productivity App [Sonora](http://sonora.surge.sh)
 
 Sonora is a productivity app designed to help Developers manage their tasks, set goals, and track their progress effectively. Whether you're a student, professional, or anyone looking to stay organized and focused, Sonora has got you covered.
 
