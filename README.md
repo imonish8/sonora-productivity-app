@@ -2,12 +2,13 @@
 
 Sonora is a productivity app designed to help Developers manage their tasks, set goals, and track their progress effectively. Whether you're a student, professional, or anyone looking to stay organized and focused, Sonora has got you covered.
 
-##Desktop
+## Desktop
 
 ![Screen Recording 2024-03-19 at 11 37 04 PM](https://github.com/imonish8/sonora-productivity-app/assets/115737071/9290c1bf-b47f-48ab-82b9-415cb8b550d7)
 
-##Mobile
+## Mobile
 
+![dbf9c1c1-05db-442a-9dc3-34421d235141-2-2](https://github.com/imonish8/sonora-productivity-app/assets/115737071/a8edcc75-6f19-4c40-adf2-9d17e6ae6ef5)
 
 
 
@@ -26,12 +27,12 @@ Sonora is a productivity app designed to help Developers manage their tasks, set
 To get started with Sonora, follow these steps:
 
 Clone the repository:
-   ```bash
-   git clone https://github.com/imonish8/sonora-productivity-app.git
-   cd sonora
-   npm install
-   npm start
-```
+  1. Create Folder:
+     ``` mkdir sonora ```
+
+  2. Navigate to Sonora  ```cd sonora ```
+  3. Install Dependencies  ``` npm install ```
+  4. Run the Local host :  ``` npm run```
 ---
 ## Contributing
 
@@ -50,3 +51,8 @@ Sonora is licensed under the MIT License.
 If you have any questions or suggestions, feel free to reach out to us at imonishnule8@gmail.com.
 
 We're excited to have you onboard as a contributor to Sonora! Let's build something great together.
+
+   git clone https://github.com/imonish8/sonora-productivity-app.git
+   cd sonora
+   npm install
+   npm start```
