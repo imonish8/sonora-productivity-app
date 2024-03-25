@@ -6,9 +6,18 @@ Sonora is a productivity app designed to help Developers manage their tasks, set
 
 <img width="820" alt="Screenshot 2024-03-25 at 9 56 37 PM" src="https://github.com/imonish8/sonora-productivity-app/assets/115737071/1a7426a0-09ba-454e-a427-24725ed12de4">
 
+# <a class="github-button" href="https://github.com/buttons/github-buttons/fork" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork buttons/github-buttons on GitHub">Fork</a>
 
+Fork this Repository -- Make Changes -- Deploy without leaving your VS Code using Surge.
+To Deploy 
+```
+cd yourrepo
+npm install --global surge
+npm surge   
 
-Sonora is a productivity app designed to help Developers manage their tasks, set goals, and track their progress effectively. Whether you're a student, professional, or anyone looking to stay organized and focused, Sonora has got you covered.
+Done, Your own version without leaving VS Code
+```
+> Made with ❤️  : Vanilla JavaScript.
 
 ## Features:
 
