@@ -4,7 +4,8 @@ Sonora is a productivity app designed to help Developers manage their tasks, set
 
 ## Desktop
 
-<img width="820" alt="Screenshot 2024-03-25 at 9 56 37 PM" src="https://github.com/imonish8/sonora-productivity-app/assets/115737071/1a7426a0-09ba-454e-a427-24725ed12de4">
+![Screenshot 2024-03-25 at 10 07 20 PM-min-2](https://github.com/imonish8/sonora-productivity-app/assets/115737071/533a2ea4-6e4d-4811-a59a-a8e5d6173cee)
+
 
 # <a class="github-button" href="https://github.com/buttons/github-buttons/fork" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork buttons/github-buttons on GitHub">Fork</a>
 
