@@ -4,8 +4,6 @@ Sonora is a productivity app designed to help Developers manage their tasks, set
 
 ## Desktop
 
-<img width="820" alt="Screenshot 2024-03-25 at 9 56 43 PM" src="https://github.com/imonish8/sonora-productivity-app/assets/115737071/64bce51a-8699-4fb1-94a4-d7329d96f56d">
-
 <img width="820" alt="Screenshot 2024-03-25 at 9 56 37 PM" src="https://github.com/imonish8/sonora-productivity-app/assets/115737071/1a7426a0-09ba-454e-a427-24725ed12de4">
 
 
